@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_me_us",
+  "info": {
+    "displayName": "Me",
+    "icon": "user"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "bio": {
+      "type": "string"
+    },
+    "profileImage": {
+      "type": "string"
+    }
+  }
+}

@@ -4,7 +4,8 @@
   "info": {
     "singularName": "about",
     "pluralName": "abouts",
-    "displayName": "About"
+    "displayName": "About",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -16,6 +17,26 @@
     },
     "content": {
       "type": "blocks"
+    },
+    "coverImageUrl": {
+      "type": "string"
+    },
+    "contact": {
+      "displayName": "contact",
+      "type": "component",
+      "repeatable": true,
+      "component": "contact.contact"
+    },
+    "technologies": {
+      "displayName": "Technology",
+      "type": "component",
+      "repeatable": true,
+      "component": "technology.technology"
+    },
+    "me": {
+      "type": "component",
+      "repeatable": false,
+      "component": "me.me"
     }
   }
 }

@@ -683,6 +683,7 @@ export interface ApiAboutAbout extends Schema.SingleType {
     singularName: 'about';
     pluralName: 'abouts';
     displayName: 'About';
+    description: '';
   };
   options: {
     draftAndPublish: true;
@@ -690,6 +691,10 @@ export interface ApiAboutAbout extends Schema.SingleType {
   attributes: {
     title: Attribute.String;
     content: Attribute.Blocks;
+    coverImageUrl: Attribute.String;
+    contact: Attribute.Component<'contact.contact', true>;
+    technologies: Attribute.Component<'technology.technology', true>;
+    me: Attribute.Component<'me.me'>;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;
