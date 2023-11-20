@@ -23,11 +23,13 @@ export interface MeMe extends Schema.Component {
   info: {
     displayName: 'Me';
     icon: 'user';
+    description: '';
   };
   attributes: {
     name: Attribute.String;
     bio: Attribute.String;
     profileImage: Attribute.String;
+    status: Attribute.String;
   };
 }
 
