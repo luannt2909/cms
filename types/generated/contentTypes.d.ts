@@ -894,6 +894,7 @@ export interface ApiPostPost extends Schema.CollectionType {
       'oneToMany',
       'api::comment.comment'
     >;
+    mdContent: Attribute.RichText;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;

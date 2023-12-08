@@ -60,6 +60,9 @@
       "relation": "oneToMany",
       "target": "api::comment.comment",
       "mappedBy": "post"
+    },
+    "mdContent": {
+      "type": "richtext"
     }
   }
 }
