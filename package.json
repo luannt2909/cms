@@ -15,13 +15,13 @@
     "@strapi/plugin-i18n": "4.15.4",
     "@strapi/plugin-users-permissions": "4.15.4",
     "@strapi/strapi": "4.15.4",
+    "@treblle/strapi": "^0.0.12",
     "better-sqlite3": "8.6.0",
     "mysql": "^2.18.1",
     "mysql2": "^3.6.3",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
     "react-router-dom": "5.3.4",
-    "strapi-plugin-moesif": "^2.0.5",
     "styled-components": "5.3.3"
   },
   "author": {
