@@ -1,10 +1,7 @@
 module.exports = {
-  'strapi-plugin-moesif': {
-    enabled: true,
+  treblle: {
     config: {
-      moesif: {
-        //custom config passed to moesif middleware goes here
-      }
+      routesToMonitor: ['api'], // this is the default
     },
   },
 }

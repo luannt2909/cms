@@ -1,0 +1,8 @@
+# react
+**/node_modules/
+**/dist/
+.git
+.env
+**/.tmp
+**/build
+**/db

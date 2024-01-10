@@ -15,7 +15,6 @@ module.exports = createCoreController("api::post.post", ({ strapi }) => ({
       filters: { slug },
       ...ctx.query,
     };
-    console.log("query: ", query)
 
     const posts = await strapi.entityService.findMany("api::post.post", query);
 
