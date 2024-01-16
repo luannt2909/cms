@@ -63,6 +63,13 @@
     },
     "mdContent": {
       "type": "richtext"
+    },
+    "viewCount": {
+      "type": "integer",
+      "default": 0
+    },
+    "lastViewedAt": {
+      "type": "biginteger"
     }
   }
 }

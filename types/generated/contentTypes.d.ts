@@ -895,6 +895,8 @@ export interface ApiPostPost extends Schema.CollectionType {
       'api::comment.comment'
     >;
     mdContent: Attribute.RichText;
+    viewCount: Attribute.Integer & Attribute.DefaultTo<0>;
+    lastViewedAt: Attribute.BigInteger;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;

@@ -47,7 +47,16 @@ const myOverrideRoutes = [
   },
 ];
 
-const myExtraRoutes = [];
+const myExtraRoutes = [
+  {
+    method: "GET",
+    path: "/posts/:id/tracking",
+    handler: "api::post.post.trackingView",
+    config: {
+      auth: false,
+    },
+  },
+];
 
 module.exports = customRouter(defaultRouter, myOverrideRoutes, myExtraRoutes);
 
